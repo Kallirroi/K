@@ -8,15 +8,12 @@ class Item extends React.Component {
   }
 
   showText() {
-    this.setState({textSelected: this.props.id});
-    console.log(this.props.id);
+    console.log(this.props.text);
   }
 
   render() {
     return (
-	  <div> 
 	  	<div className="Item" onClick={this.showText}>  {this.props.name} </div>
-  	  </div>
     );
   }
 }
