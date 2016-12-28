@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
 
 .App {
   font-size: 12px;
   line-height: 18px;
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   position: relative;
-  cursor: pointer;
+  cursor: url(cursor_1.png), auto;
 }
 
 .App-header {
@@ -16,9 +17,15 @@
   padding: 1rem;
   color: #333;
 }
+.App-container-details{ 
+  font-size: 10rem;
+  font-weight: 200;
+}
 
-.Item {
 
+.Item:hover {
+  color: #0E8D96;
+  font-weight: 400;
 }
 
 ::selection {
