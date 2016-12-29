@@ -2,19 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
 .App {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  cursor: url(cursor_oval.png), auto;
 }
 
 .App-header {
   padding: 1rem;
 }
-.App-header:hover {
-  opacity: 1;
-}
+
 
 .App-container{ 
   padding: 1rem;
@@ -25,10 +22,13 @@
 .Item:hover {
   padding-left: 10rem;
   font-weight: 400;
+  width: auto;
+  cursor: url(cursor_oval.png), auto;
+
 }
 
 .ItemDetails{ 
-  font-family:  'Open Sans', sans-serif;
+  font-family:  'Source Sans Pro', sans-serif;
   font-size: 2rem;
   line-height: 3rem;
   font-weight: 300;
@@ -43,19 +43,24 @@
 
 
 ::selection {
-  background: yellow; /* WebKit/Blink Browsers */
+  background: #00f; 
+  color: #fff/* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: yellow; /* Gecko Browsers */
+  background: #00f; /* Gecko Browsers */
+  color: #fff
 }
 
 a {
   text-decoration: none;
   color: inherit;
   cursor: inherit;
+  cursor: url(cursor_oval.png), auto;
+
 }
 
 a:hover {
   padding-left: 10rem;
   font-weight: 400 ;
+  cursor: url(cursor_oval.png), auto;
 }
