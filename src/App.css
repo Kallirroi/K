@@ -9,7 +9,10 @@
 }
 
 .App-header {
-  padding: 1rem;
+  margin: 1rem;
+  background: #00f; 
+  width: 5rem;
+  color: #fff;
 }
 
 
