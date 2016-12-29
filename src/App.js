@@ -30,7 +30,7 @@ class App extends Component {
     e.target.id ? this.setState({clickedID: e.target.id}) : 1;  //change text
     var el = document.getElementsByClassName("ItemDetails"); //change position
     el[0].style.left = Math.random()*40 + 10 + 'rem';
-    el[0].style.top =  Math.random()*10 + 20 + 'rem';
+    el[0].style.top =  Math.random()*5 + 'rem';
   }
 
   render() {
