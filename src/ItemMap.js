@@ -9,7 +9,7 @@ export const ItemMap = [
 	},
 	{
 		name: 'thoughtless acts',
-		text: '<p>This project, inspired by the book of Jane Fulton Suri of IDEO titled "Thoughtless Acts", is an exercise in seeing rather than looking at the different types of interactions we engage in with our surroundings.</p> <a href="http://cargocollective.com/kallirroi/thoughtless-acts" target="_blank">link</a><p><img src="https://churchill.imgix.net/images/posts/IDEO_Books_Thoughtless_Acts_160211_110703.jpg?auto=format&dpr=1&fit=max&h=570&w=900" /> </p>'
+		text: '<p>This project, inspired by the book of Jane Fulton Suri of IDEO titled "Thoughtless Acts", is an exercise in seeing rather than looking at the different types of interactions we engage in with our surroundings.</p> <a href="http://cargocollective.com/kallirroi/thoughtless-acts" target="_blank">link</a><p><img src="https://churchill.imgix.net/images/posts/IDEO_Books_Thoughtless_Acts_160211_110703.jpg?auto=format&dpr=1&fit=max&h=570&w=900" width="80%" /> </p>'
 	},
 	{
 		name: 'datavis + web design',
