@@ -12,11 +12,11 @@ export const ItemMap = [
 		text: 'This is an ongoing exploration of the myriad of ways we inhabit the world around us - most often without noticing it. Inspired by the book of Jane Fulton Suri of IDEO titled "Thoughtless Acts", it is an exercise in seeing rather than looking at the different types of interactions we engage in with our surroundings.'
 	},
 	{
-		name: 'web design and datavis',
+		name: 'datavis + web design',
 		text: 'http://cargocollective.com/kalliportfolio/'
 	},
 	{
-		name: 'favorite things',
-		text: 'Here are some things I return to for inspiration quite often: This is Water by David Foster Wallace Pale Blue Dot by Carl Sagan Stop drawing dead fish by Bret Victor Saul Leiter photography Richard Feynman in The pleasure of finding things out Zen and the art of motorcycle maintenance by Robert Pirsig Edward Hopper s Nighthawks best movie scene Siddhartha by Herman Hesse'
+		name: 'contact me',
+		text: 'kallirroi [at] retzepi gmail com'
 	}
 ];	

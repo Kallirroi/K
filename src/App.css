@@ -20,6 +20,8 @@
   padding: 1rem;
   color: #222;
   z-index: 1;
+  width: 20rem;
+  /*border: 1px solid red;*/
 }
 .Item:hover {
   padding-left: 10rem;
@@ -27,7 +29,7 @@
   /*cursor: url(cursor_oval_full.png), auto;*/
 }
 
-.App-container-details{ 
+.ItemDetails{ 
   font-family:  'Alegreya Sans', sans-serif;
   font-size: 2.1rem;
   line-height: 3rem;
