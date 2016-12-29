@@ -1,7 +1,7 @@
 export const ItemMap = [
 	{
 		name: 'about',
-		text: 'My name is Kallirroi; many people call me Kalli. I explore the space found at the intersection of design, engineering, science and images.My focus lies in designing and developing novel platforms that breathe in data and exhale meaningful insights that inform decision-making on issues of collective learning, education and social awareness. Having followed a non-linear career path, I gained experience both in research and in industry. Currently, I am working as an interaction and data visualization designer at a digital design studio in Zurich, Switzerland. In my free time I run long distances, read, write, photograph, and have extensive, espresso-fueled debates - usually about politics.'
+		text: '<p> My name is Kallirroi; many people call me Kalli. I explore the space found at the intersection of design, engineering, science and images.My focus lies in designing and developing novel platforms that breathe in data and exhale meaningful insights that inform decision-making on issues of collective learning, education and social awareness.</p>  <p> Currently, I am working as an interaction and data visualization designer at a digital design studio in Zurich, Switzerland. In my free time I run long distances, read, write, photograph, and have extensive, espresso-fueled debates - usually about politics.</p> '
 	},
 	{
 		name: 'photography',
@@ -13,10 +13,10 @@ export const ItemMap = [
 	},
 	{
 		name: 'datavis + web design',
-		text: '<a href="http://cargocollective.com/kalliportfolio/">http://cargocollective.com/kalliportfolio/</a>'
+		text: '<a href="http://cargocollective.com/kalliportfolio/" target="_blank">http://cargocollective.com/kalliportfolio/</a>'
 	},
 	{
 		name: 'contact me',
-		text: 'kallirroi [at] retzepi gmail com'
+		text: '<a href="mailto:kallirroi.retzepi@gmail.com">email</a> <br> <a href="https://twitter.com/kallirroi" target="_blank">twitter</a><br><a href="https://www.linkedin.com/in/kalliretzepi" target="_blank">linkedin</a>'
 	}
 ];	

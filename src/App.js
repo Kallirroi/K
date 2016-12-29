@@ -27,7 +27,10 @@ class App extends Component {
     window.removeEventListener('click', this.updateText);
   }
   updateText(e) {
-    this.setState({clickedID: e.target.id});
+    e.target.id ? this.setState({clickedID: e.target.id}) : 1;  //change text
+    var el = document.getElementsByClassName("ItemDetails"); //change position
+    el[0].style.left = Math.random()*40 + 10 + 'rem';
+    el[0].style.top =  Math.random()*20 + 20 + 'rem';
   }
 
   render() {
