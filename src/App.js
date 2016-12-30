@@ -5,6 +5,9 @@ import Item from './Item';
 import ItemDetails from './ItemDetails';
 import {ItemMap} from './ItemMap';
 
+const colors = ['#fff', '#F9FFF7', '#FAFFFE', '#FAFEFF', '#FEFEFF','#FCFFFA', '#FFFBFA', '#FFF'] ;
+const background = document.getElementsByTagName('body');
+const item = document.getElementsByClassName("ItemDetails"); //change position
 
 class App extends Component {
   
@@ -26,12 +29,8 @@ class App extends Component {
   }
   updateText(e) {
     if (e.target.id.length>0) this.setState({clickedID: e.target.id});  //change text
-    var el = document.getElementsByClassName("ItemDetails"); //change position
-    el[0].style.left = Math.random()*40 + 10 + 'rem';
-    el[0].style.top =  Math.random()*5 + 'rem';
-
-    var background = document.getElementsByTagName('body');
-    var colors = ['#fff', '#F9FFF7', '#FAFFFE', '#FAFEFF', '#FEFEFF','#FCFFFA', '#FFFBFA'] ;
+    item[0].style.left = Math.random()*40 + 10 + 'rem';
+    item[0].style.top =  Math.random()*5 + 'rem';
     background[0].style.backgroundColor = colors[Math.floor(Math.random() * colors.length)]
   }
 
