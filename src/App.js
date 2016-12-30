@@ -20,17 +20,19 @@ class App extends Component {
   componentDidMount() {
     window.addEventListener('click', this.updateText);
   }
-  componentWillMount() {
 
-  }
   componentWillUnmount() {
     window.removeEventListener('click', this.updateText);
   }
   updateText(e) {
-    e.target.id ? this.setState({clickedID: e.target.id}) : 1;  //change text
+    if (e.target.id.length>0) this.setState({clickedID: e.target.id});  //change text
     var el = document.getElementsByClassName("ItemDetails"); //change position
     el[0].style.left = Math.random()*40 + 10 + 'rem';
     el[0].style.top =  Math.random()*5 + 'rem';
+
+    var background = document.getElementsByTagName('body');
+    var colors = ['#fff', '#FFFFD6', '#FCFFFF', 'FFFFF2', 'FEFEFF','#fff'];
+    background[0].style.backgroundColor = colors[Math.floor(Math.random() * colors.length)]
   }
 
   render() {
