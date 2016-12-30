@@ -31,7 +31,7 @@ class App extends Component {
     el[0].style.top =  Math.random()*5 + 'rem';
 
     var background = document.getElementsByTagName('body');
-    var colors = ['#fff', '#FFFFD6', '#FCFFFF', 'FFFFF2', 'FEFEFF','#fff'];
+    var colors = ['#fff', '#F9FFF7', '#FAFFFE', '#FAFEFF', '#FEFEFF','#FCFFFA', '#FFFBFA'] ;
     background[0].style.backgroundColor = colors[Math.floor(Math.random() * colors.length)]
   }
 
