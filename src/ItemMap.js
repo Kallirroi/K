@@ -21,6 +21,6 @@ export const ItemMap = [
 	},
 	{
 		name: 'contact',
-		text: '<p><a href="mailto:kallirroi.retzepi@gmail.com">email</a> <br> <a href="https://twitter.com/kallirroi" target="_blank">twitter</a><br><a href="https://www.linkedin.com/in/kalliretzepi" target="_blank">linkedin</a><br><a href="https://kalli.ongoodbits.com/" target="_blank">newsletter</a></p>'
+		text: '<p><a href="mailto:kallirroi.retzepi@gmail.com">email</a> <br> <a href="https://medium.com/@kallirroi" target="_blank">medium</a> <br><a href="https://twitter.com/kallirroi" target="_blank">twitter</a><br><a href="https://www.linkedin.com/in/kalliretzepi" target="_blank">linkedin</a><br><a href="https://kalli.ongoodbits.com/" target="_blank">newsletter</a></p>'
 	}
 ];	
