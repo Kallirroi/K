@@ -13,7 +13,7 @@ export const ItemMap = [
 	},
 	{
 		name: 'datavis + web design',
-		text: '<p>– <br><a href="https://lab.interactivethings.com/road-to-school/" target="_blank"> The road to school </a> <br> an interactive visualization about how the Syrian conflict is stopping millions of children from going to school</p> <p> – <br><a href="https://www.ubs.com/microsites/artificial-intelligence/en/new-dawn.html" target="_blank"> The evolution of AI </a> <br> a visual storytelling project about the future of artificial intelligence</p> <p>– <br><a href="http://kallirroi.github.io/dailyinstagram/" target="_blank"> Instagram panel </a> <br> my custom made Instagram stats overview</p> <br><p>(page is continuously updated)</p>'
+		text: '<p>– <br><a href="https://lab.interactivethings.com/road-to-school/" target="_blank"> The road to school </a> <br> an interactive visualization about how the Syrian conflict is stopping millions of children from going to school</p> <p> – <br><a href="https://www.ubs.com/microsites/artificial-intelligence/en/new-dawn.html" target="_blank"> The evolution of AI </a> <br> a visual storytelling project about the future of artificial intelligence</p> <p>– <br><a href="https://www.stadt-zuerich.ch/content/prd/de/index/statistik/publikationen-angebote/publikationen/webartikel/2016-12-05_3-Millionen-Naechte-in-Zuerich.html target="_blank"> Responsive d3.js charts </a> <br> contribution to visualization library for the website of the city of Zurich</p> <p>– <br><a href="http://kallirroi.github.io/dailyinstagram/" target="_blank"> Instagram panel </a> <br> my custom made Instagram stats overview</p> <br><p>(page is continuously updated)</p>'
 	},
 	{
 		name: 'creative code',
