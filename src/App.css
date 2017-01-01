@@ -41,17 +41,6 @@
   position: absolute;
   padding: 0 1rem 1rem 1rem;
   /*border: 1px solid red;*/
-  /*background: #FF3B30;*/
-}
-
-
-::selection {
-  background: #00f; 
-  color: #fff/* WebKit/Blink Browsers */
-}
-::-moz-selection {
-  background: #00f; /* Gecko Browsers */
-  color: #fff
 }
 
 a {
@@ -66,4 +55,13 @@ a:hover {
   padding-left: 10rem;
   font-weight: 400 ;
   cursor: url(cursor_oval.png), auto;
+}
+
+::selection {
+  background: #00f; 
+  color: #fff/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #00f; /* Gecko Browsers */
+  color: #fff
 }
