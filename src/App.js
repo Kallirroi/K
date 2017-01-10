@@ -18,7 +18,6 @@ class App extends Component {
       clickedID: 0
     };
     this.updateText = this.updateText.bind(this);
-
   }
  
   componentDidMount() {

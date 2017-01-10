@@ -10,9 +10,12 @@
 
 .App-header {
   margin: 1rem;
-  background: #00f; 
-  width: 5rem;
-  color: #fff;
+  /*width: 5rem;*/
+  color: #FF736B;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.01rem;
 }
 
 
