@@ -12,8 +12,12 @@ export const ItemMap = [
 		text: '<p>This project, inspired by the book of Jane Fulton Suri of IDEO titled "Thoughtless Acts", is an exercise in seeing rather than looking at the different types of interactions we engage in with our surroundings.</p> <a href="http://cargocollective.com/kallirroi/thoughtless-acts" target="_blank">link</a><p><img src="https://churchill.imgix.net/images/posts/IDEO_Books_Thoughtless_Acts_160211_110703.jpg?auto=format&dpr=1&fit=max&h=570&w=900" width="80%" /> </p>'
 	},
 	{
-		name: 'datavis + web design',
-		text: '<p>– <br><a href="https://lab.interactivethings.com/road-to-school/" target="_blank"> The road to school </a> <br> an interactive visualization about how the Syrian conflict is stopping millions of children from going to school</p> <p> – <br><a href="https://www.ubs.com/microsites/artificial-intelligence/en/new-dawn.html" target="_blank"> The evolution of AI </a> <br> a visual storytelling project about the future of artificial intelligence</p> <p>– <br><a href="https://www.stadt-zuerich.ch/content/prd/de/index/statistik/publikationen-angebote/publikationen/webartikel/2016-12-05_3-Millionen-Naechte-in-Zuerich.html target="_blank"> Responsive d3.js charts </a> <br> contribution to visualization library for the website of the city of Zurich</p> <p>– <br><a href="http://kallirroi.github.io/dailyinstagram/" target="_blank"> Instagram panel </a> <br> my custom made Instagram stats overview</p> <br><p style="font-size: 0.6em">all of the above are best viewed in desktop browser</p>'
+		name: 'datavis',
+		text: '<p>– <br><a href="https://lab.interactivethings.com/road-to-school/" target="_blank"> <span style="font-weight: 400">The road to school</span> </a> <br> an interactive visualization about how the Syrian conflict is stopping millions of children from going to school</p> <p> – <br><a href="https://www.stadt-zuerich.ch/content/prd/de/index/statistik/publikationen-angebote/publikationen/webartikel/2016-12-05_3-Millionen-Naechte-in-Zuerich.html target="_blank"> <span style="font-weight: 400">Responsive d3.js charts </span> </a> <br> contribution to visualization library for the website of the city of Zurich</p>'
+	},
+	{
+		name: 'web design',
+		text: '<p>– <br><a href="http://samtous.wtf/" target="_blank"> <span style="font-weight: 400">samtous.wtf</span></a> <br> architecture portfolio </p> <p> – <br><a href="https://www.ubs.com/microsites/artificial-intelligence/en/new-dawn.html" target="_blank"> <span style="font-weight: 400">the evolution of AI</span> </a> <br> a visual storytelling project about the future of artificial intelligence</p>'
 	},
 	{
 		name: 'creative code',
