@@ -17,7 +17,7 @@ export const ItemMap = [
 	},
 	{
 		name: 'web design',
-		text: '<p>– <br><a href="http://samtous.wtf/" target="_blank"> <span style="font-weight: 400">samtous.wtf</span></a> <br> architecture portfolio </p> <p> – <br><a href="https://www.ubs.com/microsites/artificial-intelligence/en/new-dawn.html" target="_blank"> <span style="font-weight: 400">the evolution of AI</span> </a> <br> a visual storytelling project about the future of artificial intelligence</p>'
+		text: '<p>– <br><a href="http://samtous.wtf/" target="_blank"> <span style="font-weight: 400">samtous.wtf</span></a> <br> A restless portfolio as an archive of images</p> <p> – <br><a href="https://www.ubs.com/microsites/artificial-intelligence/en/new-dawn.html" target="_blank"> <span style="font-weight: 400">the evolution of AI</span> </a> <br> a visual storytelling project about the future of artificial intelligence</p>'
 	},
 	{
 		name: 'creative code',
