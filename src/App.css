@@ -60,6 +60,10 @@ a:hover {
   cursor: url(cursor_oval.png), auto;
 }
 
+img {
+  width: 30vw;
+}
+
 ::selection {
   background: #00f; 
   color: #fff/* WebKit/Blink Browsers */
