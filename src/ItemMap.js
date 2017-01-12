@@ -5,11 +5,11 @@ export const ItemMap = [
 	},
 	{
 		name: 'photography',
-		text: '<p>I use film (Fujicolor 200 is my go-to choice) and carry a small point-and-shoot Olympus XA in my bag. </p><p>Instead of snapping a photo with my phone, I do it with my small film camera - a way to teach my eyes to not be so hungry to see the result right away.</p><span style="font-weight:400">link</span>  <p><img src="http://payload359.cargocollective.com/1/18/596066/9499258/A184500_022A_670.jpg" /> </p> <a href="http://cargocollective.com/kallirroi" target="_blank"></a>'
+		text: '<p>I use film (Fujicolor 200 is my go-to choice) and carry a small point-and-shoot Olympus XA in my bag. </p><p>Instead of snapping a photo with my phone, I do it with my small film camera - a way to teach my eyes to not be so hungry to see the result right away.</p><span style="font-weight:600">link</span>  <p><img src="http://payload359.cargocollective.com/1/18/596066/9499258/A184500_022A_670.jpg" /> </p> <a href="http://cargocollective.com/kallirroi" target="_blank"></a>'
 	},
 	{
 		name: 'thoughtless acts',
-		text: '<p>This project, inspired by the book of Jane Fulton Suri of IDEO titled "Thoughtless Acts", is an exercise in seeing rather than looking at the different types of interactions we engage in with our surroundings.</p> <a href="http://cargocollective.com/kallirroi/thoughtless-acts" target="_blank"><span style="font-weight:400">link</span></a><p><img src="https://churchill.imgix.net/images/posts/IDEO_Books_Thoughtless_Acts_160211_110703.jpg?auto=format&dpr=1&fit=max&h=570&w=900" width="80%" /> </p>'
+		text: '<p>This project, inspired by the book of Jane Fulton Suri of IDEO titled "Thoughtless Acts", is an exercise in seeing rather than looking at the different types of interactions we engage in with our surroundings.</p> <a href="http://cargocollective.com/kallirroi/thoughtless-acts" target="_blank"><span style="font-weight:600">link</span></a><p><img src="https://churchill.imgix.net/images/posts/IDEO_Books_Thoughtless_Acts_160211_110703.jpg?auto=format&dpr=1&fit=max&h=570&w=900" width="80%" /> </p>'
 	},
 	{
 		name: 'datavis',
@@ -21,10 +21,10 @@ export const ItemMap = [
 	},
 	{
 		name: 'creative code',
-		text: 'p5.js <br> just experimenting <p><img src="http://payload494.cargocollective.com/1/22/719859/12196432/curveVertex.gif" /> </p> <a href="http://cargocollective.com/kallirroi/generative-code"> <p><span style="font-weight:400">link</span></a> </p>'
+		text: 'p5.js <br> just experimenting <p><img src="http://payload494.cargocollective.com/1/22/719859/12196432/curveVertex.gif" /> </p> <a href="http://cargocollective.com/kallirroi/generative-code"> <p><span style="font-weight:600">link</span></a> </p>'
 	},
 	{
 		name: 'contact',
-		text: '<p><a href="mailto:kallirroi.retzepi@gmail.com">email</a> <br> <a href="https://medium.com/@kallirroi" target="_blank">medium</a> <br><a href="https://twitter.com/kallirroi" target="_blank">twitter</a><br><a href="https://www.<span style="font-weight:400">link</span>edin.com/in/kalliretzepi" target="_blank"><span style="font-weight:400">link</span>edin</a><br><a href="https://kalli.ongoodbits.com/" target="_blank">newsletter</a></p>'
+		text: '<p><a href="mailto:kallirroi.retzepi@gmail.com">email</a> <br> <a href="https://medium.com/@kallirroi" target="_blank">medium</a> <br><a href="https://twitter.com/kallirroi" target="_blank">twitter</a><br><a href="https://www.linkedin.com/in/kalliretzepi" target="_blank">linkedin</a><br><a href="https://kalli.ongoodbits.com/" target="_blank">newsletter</a></p>'
 	}
 ];	
