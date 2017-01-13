@@ -13,15 +13,15 @@ export const ItemMap = [
 	},
 	{
 		name: 'datavis',
-		text: '<p>– <br><a href="https://lab.interactivethings.com/road-to-school/" target="_blank"> <span style="font-weight: 400">The road to school</span> </a> <br> an interactive visualization about how the Syrian conflict is stopping millions of children from going to school</p> <p> – <br><a href="https://www.stadt-zuerich.ch/content/prd/de/index/statistik/publikationen-angebote/publikationen/webartikel/2016-12-05_3-Millionen-Naechte-in-Zuerich.html target="_blank"> <span style="font-weight: 400">Responsive d3.js charts </span> </a> <br> contribution to visualization library for the website of the city of Zurich</p>'
+		text: '<p>– <br><a href="https://lab.interactivethings.com/road-to-school/" target="_blank"> <span style="font-weight: 600">the road to school</span> </a> <br> an interactive visualization about how the Syrian conflict is stopping millions of children from going to school</p> <p> – <br><a href="https://www.stadt-zuerich.ch/content/prd/de/index/statistik/publikationen-angebote/publikationen/webartikel/2016-12-05_3-Millionen-Naechte-in-Zuerich.html target="_blank"> <span style="font-weight: 600">responsive d3.js charts </span> </a> <br> contribution to visualization library for the website of the city of Zurich</p>'
 	},
 	{
 		name: 'web design',
-		text: '<p>– <br><a href="http://samtous.wtf/" target="_blank"> <span style="font-weight: 400">samtous.wtf</span></a> <br> A restless portfolio as an archive of images</p> <p> – <br><a href="https://www.ubs.com/microsites/artificial-intelligence/en/new-dawn.html" target="_blank"> <span style="font-weight: 400">the evolution of AI</span> </a> <br> a visual storytelling project about the future of artificial intelligence</p>'
+		text: '<p>– <br><a href="http://samtous.wtf/" target="_blank"> <span style="font-weight: 600">samtous.wtf</span></a> <br> a restless portfolio as an archive of images</p> <p> – <br><a href="https://www.ubs.com/microsites/artificial-intelligence/en/new-dawn.html" target="_blank"> <span style="font-weight: 600">the evolution of AI</span> </a> <br> a visual storytelling project about the future of artificial intelligence</p>'
 	},
 	{
 		name: 'creative code',
-		text: 'p5.js <br> just experimenting <p><img src="http://payload494.cargocollective.com/1/22/719859/12196432/curveVertex.gif" /> </p> <a href="http://cargocollective.com/kallirroi/generative-code"> <p><span style="font-weight:600">link</span></a> </p>'
+		text: '<p> <span style="font-weight: 600">p5.js </span </p> <p> just experimenting </p> <p><img src="http://payload494.cargocollective.com/1/22/719859/12196432/curveVertex.gif" /> </p> <a href="http://cargocollective.com/kallirroi/generative-code"> <p><span style="font-weight:600">link</span></a> </p>'
 	},
 	{
 		name: 'contact',
