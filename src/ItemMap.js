@@ -5,7 +5,7 @@ export const ItemMap = [
 	},
 	{
 		name: 'photography',
-		text: '<p>I use film (Fujicolor 200 is my go-to choice) and carry a small point-and-shoot Olympus XA in my bag. </p><p>Instead of snapping a photo with my phone, I do it with my small film camera - a way to teach my eyes to not be so hungry to see the result right away.</p><span style="font-weight:600">link</span>  <p><img src="http://payload359.cargocollective.com/1/18/596066/9499258/A184500_022A_670.jpg" /> </p> <a href="http://cargocollective.com/kallirroi" target="_blank"></a>'
+		text: '<p>I use film (Fujicolor 200 is my go-to choice) and carry a small point-and-shoot Olympus XA in my bag. </p><p>Instead of snapping a photo with my phone, I do it with my small film camera - a way to teach my eyes to not be so hungry to see the result right away.</p><p><img src="http://payload359.cargocollective.com/1/18/596066/9499258/A184500_022A_670.jpg" /> </p> <span style="font-weight:600"><a href="http://cargocollective.com/kallirroi" target="_blank">link</a> <br> <a href="http://velveteyes.net/features/kalli-retzepi/" target="_blank">feature #1 </a> <br> <a href="http://www.c41magazine.it/kalli-retzepi-goes-find-light/" target="_blank">feature #2</a></span>'
 	},
 	{
 		name: 'thoughtless acts',
