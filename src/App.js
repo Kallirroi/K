@@ -42,6 +42,7 @@ class App extends Component {
           {ItemMap.map((d,i) => <Item key={i} id={i} name={d.name} text={d.text} onClick={this.updateText} />)} 
         </div>
         <ItemDetails text={ItemMap[this.state.clickedID].text} />
+        <div className="footer">made by K. – 2017</div>
       </div>
     );
   }

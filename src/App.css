@@ -78,3 +78,10 @@ iframe {
   background: #00f; /* Gecko Browsers */
   color: #fff
 }
+
+.footer {
+  position: fixed;
+  bottom: 2vh;
+  height: 2vh;
+  right: 1vw;
+}
