@@ -11,26 +11,28 @@
 }
 
 .App-header {
-  margin: 1rem;
+  margin-top: 2vh;
+  margin-left: 1vw;
   /*width: 5rem;*/
   color: #FF736B;
   font-size: 1.8rem;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.04rem;
   font-family: 'Nunito';
 }
 
-
 .App-container{ 
-  padding: 1rem;
+  padding-left: 1vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   color: #222;
-  width: 20rem;
+  width: 15vw;
   /*border: 1px solid red;*/
 }
 
 .Item:hover {
-  padding-left: 10rem;
+  padding-left: 6vw;
   font-weight: 400;
   width: auto;
   cursor: url(cursor_oval.png), auto;
@@ -40,7 +42,7 @@
   font-size: 2rem;
   line-height: 3.4rem;
   font-weight: 300;
-  left: 1rem;
+  left: 1vw;
   width:  60rem;
   display: inline-block;
   position: absolute;
@@ -51,10 +53,6 @@
 
 .ItemDetails:hover {
   cursor: move;
-}
-
-.ItemDetails>p:hover {
-  cursor: text;
 }
 
 a {
