@@ -21,7 +21,7 @@ export const ItemMap = [
 	},
 	{
 		name: 'creative code',
-		text: '<p> <span style="font-weight: 600">p5.js </span </p> <p> just experimenting </p> <p><img src="http://payload494.cargocollective.com/1/22/719859/12196432/curveVertex.gif" /> </p> <a href="http://cargocollective.com/kallirroi/generative-code"> <p><span style="font-weight:600">link</span></a> </p>'
+		text: '<p> <span style="font-weight: 600">p5.js </span </p> <p> just experimenting </p> <p><img src="http://payload494.cargocollective.com/1/22/719859/12196432/p5-GIF.gif" /> </p> <a href="http://cargocollective.com/kallirroi/generative-code"> <p><span style="font-weight:600">link</span></a> </p>'
 	},
 	{
 		name: 'contact',
