@@ -27,18 +27,17 @@ class App extends Component {
   
   updateText(e) {
     if (e.target.id.length>0) this.setState({clickedID: e.target.id});  //change text
-    item[0].style.left = Math.random()*40 + 20 + 'rem'; //move text 
-    item[0].style.top =  Math.random()*10 + 10 + 'rem'; //move text 
   }
 
   render() {
     return (
       <div className="App">
-        <div className="App-header"> Kalli Retzepi </div> 
+        <div className="App-header"> kalli retzepi</div> 
         <div className="App-container">
           {ItemMap.map((d,i) => <Item key={i} id={i} name={d.name} text={d.text} onClick={this.updateText} />)} 
         </div>
         <ItemDetails text={ItemMap[this.state.clickedID].text} />
+        <div className="about"> kallirroi.retzepi [at] gmail.com | @kallirroi</div>
         <div className="footer">made by K. – 2017</div>
       </div>
     );
