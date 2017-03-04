@@ -108,6 +108,7 @@ a {
 a:hover {
   padding-left: 2rem;
   cursor: url(cursor_oval.png), auto;
+  font-weight: 500;
 }
 
 img {

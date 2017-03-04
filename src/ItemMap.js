@@ -9,7 +9,7 @@ export const ItemMap = [
 	},
 	{
 		name: 'photography',
-		text: '<p>I use film (Fujicolor 200 is my go-to choice) and carry a small point-and-shoot Olympus XA in my bag. </p><p>Instead of snapping a photo with my phone, I do it with my small film camera - a way to teach my eyes to not be so hungry to see the result right away.</p><span style="font-weight:600"><a href="http://cargocollective.com/kallirroi" target="_blank">link</a> <br> <a href="http://velveteyes.net/features/kalli-retzepi/" target="_blank">feature #1 </a> <br> <a href="http://www.c41magazine.it/kalli-retzepi-goes-find-light/" target="_blank">feature #2</a><br> <a href="http://www.thisiswander.com/post/157453662292/kalli-retzepi-boston-usa-zurich-switzerland" target="_blank">feature #3</a></span>' 
+		text: '<p>I use film (Fujicolor 200 is my go-to choice) and carry a small point-and-shoot Olympus XA in my bag. </p><p>Instead of snapping a photo with my phone, I do it with my small film camera - a way to teach my eyes to not be so hungry to see the result right away.</p><span style="font-weight:600"><a href="http://cargocollective.com/kallirroi" target="_blank">link</a> </span> <br>  <br> <a href="http://velveteyes.net/features/kalli-retzepi/" target="_blank">feature #1 </a> | <a href="http://www.c41magazine.it/kalli-retzepi-goes-find-light/" target="_blank">feature #2</a> | <a href="http://www.thisiswander.com/post/157453662292/kalli-retzepi-boston-usa-zurich-switzerland" target="_blank">feature #3</a>' 
 	},
 	{
 		name: 'thoughtless acts',
