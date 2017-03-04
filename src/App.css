@@ -39,6 +39,7 @@
 .Item {
   font-weight: 300;
   line-height: 56px;
+  font-weight: 400;
 }
 
 .Item:hover {
