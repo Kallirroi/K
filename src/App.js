@@ -5,7 +5,6 @@ import Item from './Item';
 import ItemDetails from './ItemDetails';
 import {ItemMap} from './ItemMap';
 
-const item = document.getElementsByClassName("ItemDetails"); //change position
 
 class App extends Component {
   
