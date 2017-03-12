@@ -21,6 +21,6 @@ export const ItemMap = [
 	},
 	{
 		name: 'web design',
-		text: '<p>– <br><a href="http://samtous.wtf/" target="_blank"> <span style="font-weight: 600">samtous.wtf</span></a> <br> a restless portfolio as an archive of images</p> <p> – <br><a href="https://www.ubs.com/microsites/artificial-intelligence/en/new-dawn.html" target="_blank"> <span style="font-weight: 600">the evolution of AI</span> </a> <br> a visual storytelling project about the future of artificial intelligence</p> – <br><a href="https://www.explora.ethz.ch/" target="_blank"> <span style="font-weight: 600">EXPLORA</span> </a> <br> visual storytelling project for ETH Library</p>'
+		text: '<p>– <br><a href="http://samtous.wtf/" target="_blank"> <span style="font-weight: 600">samtous.wtf</span></a> <br> a restless portfolio as an archive of images</p> <p> – <br><a href="https://www.ubs.com/microsites/artificial-intelligence/en/new-dawn.html" target="_blank"> <span style="font-weight: 600">the evolution of AI</span> </a> <br> collaboration for a visual storytelling project about the future of AI</p> – <br><a href="https://www.explora.ethz.ch/" target="_blank"> <span style="font-weight: 600">EXPLORA</span> </a> <br> collaboration for a visual storytelling project on behalf of the ETH Library</p> – <br><a href="http://archmix.es/" target="_blank"> <span style="font-weight: 600">archmix.es</span> </a> <br> tweeting from your couch, in your sweats, can be an architectural act</p>'
 	}
 ];	
