@@ -24,8 +24,8 @@ class App extends Component {
     window.removeEventListener('click', this.updateText);
   }
   
-  updateText(e) {
-    if (e.target.id.length>0) this.setState({clickedID: e.target.id});  //change text
+  updateText() {
+    console.log('hey')
   }
 
   render() {
@@ -39,7 +39,7 @@ class App extends Component {
           {ItemMap.map((d,i) => <ItemDetails key={i} id={i} text={d.text} />)} 
         </div>
 
-        <div className="About"> kallirroi.retzepi [at] gmail.com | @kallirroi</div>
+        <div className="About"> kallirroi.retzepi [at] gmail.com</div>
       </div>
     );
   }

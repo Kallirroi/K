@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
 
+
 .App {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 16px;
   letter-spacing: 0.1px;
   font-weight:  400;
   font-family:  'Helvetica Neue', 'Source Sans Pro', sans-serif;
-  height: 100vh;
-  margin: 2.2vw 2.2vw 0.34vw 2.2vw;
+  padding:  2.2vw 2.2vw 0.34vw 4.6vw;
+  width: 1363px;
 }
 
 .App-Header {
   font-weight: 500;
+  font-size: 16px;
   text-transform: uppercase;
   display: block;
   position: relative;
+  top: 2vh;
   /*border: 1px solid blue;*/
 }
 
@@ -23,18 +26,18 @@
   display: block;
   position: relative;
   /*border: 1px solid green;*/
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 .ItemDetails { 
   display: inline-block;
   position: relative;
-  width:  21vw;
+  width:  20vw;
   height: 50vh;
-  border: 1px solid red;
-  margin-right: 100px;
+  /*border: 1px solid red;*/
+  margin-right: 50px;
   margin-top: 10vh;
-  overflow-y: scroll;
+  overflow: scroll;
 }
 
 
