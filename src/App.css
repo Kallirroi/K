@@ -1,100 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700');
-@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500');
 
 .App {
-  font-family:  'Roboto', sans-serif;
-  height: 100vh;
-}
-
-.App-header {
-  top: 15vh;
-  left: 10vw;
-  font-size: 76px;
-  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
   font-weight:  400;
-  letter-spacing: 0.01rem;
-  position: absolute;
+  font-family:  'Helvetica Neue', 'Source Sans Pro', sans-serif;
+  height: 100vh;
+  margin: 2.2vw 2.2vw 0.34vw 2.2vw;
 }
 
-.App-container{ 
-  top: 30vh;
-  color: #222;
-  left: 50vw;
-  position: relative;
+.App-Header {
+  font-weight: 500;
+  text-transform: uppercase;
   display: block;
-  font-size: 40px;
-  width: 30vw;
-  /*height: 40vh;*/
-  letter-spacing: 0.01rem;
-  border-left: 3px solid #222;
-  padding-left: 6vw;
+  position: relative;
+  /*border: 1px solid blue;*/
 }
 
-.Item {
-  font-weight: 300;
-  line-height: 56px;
-  font-weight: 400;
-}
-
-.Item:hover {
-  padding-left: 1vw;
-  font-weight: 400;
-  cursor: url(cursor_oval.png), auto;
+.App-Container {
+  vertical-align: top;
+  display: block;
+  position: relative;
+  /*border: 1px solid green;*/
+  overflow-y: hidden;
 }
 
 .ItemDetails { 
-  font-family: 'Roboto Mono';
-  font-size: 12px;
-  line-height: 22px;
-  font-weight: 400;
-  left: 10vw;
-  top: 40vh;
-  width:  32vw;
-  display: block;
-  position: absolute;
-  padding: 0.1vh 0.1vw 0.1vh 0.5vw;
+  display: inline-block;
+  position: relative;
+  width:  21vw;
+  height: 50vh;
+  border: 1px solid red;
+  margin-right: 100px;
+  margin-top: 10vh;
+  overflow-y: scroll;
 }
 
-.ItemDetails::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /*border: 1px solid #222;*/
-  /*background: #00f;*/
-  opacity: 0.3;
-  /*box-shadow: 3px 3px 50px 0px #FF736B;*/
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-  animation-name: jitter;
-  animation-duration: 5s; 
-  animation-timing-function: linear; 
-  animation-delay: 0;
-  animation-iteration-count: infinite;
-  animation-play-state: running;  
-}
-
-.ItemDetails:hover {
-  cursor: url(cursor_move.png), auto;
-}
-
-@keyframes jitter {
-  0% {
-    transform: scale(1)
-  }
-  50% {
-    transform: scale(1.02)
-  }  
-  100% {
-    transform: scale(1)
-  }
-}
 
 a {
   text-decoration: none;
@@ -102,18 +44,8 @@ a {
   cursor: url(cursor_oval.png), auto;
 }
 
-a:hover {
-  padding-left: 2rem;
-  cursor: url(cursor_oval.png), auto;
-  font-weight: 500;
-}
-
 img {
   width: 30vw;
-}
-
-iframe {
-  margin: 0;
 }
 
 ::selection {
@@ -125,22 +57,12 @@ iframe {
   color: #fff
 }
 
-.about {
-  font-family: 'Roboto Mono';
-  font-size: 10px;
-  font-weight: 500;
+.About {
+  text-decoration: underline;;
   position: fixed;
-  bottom: 2vh;
-  height: 2vh;
-  left: 10vw;  
-}
-
-.footer {
-  font-family: 'Roboto Mono';
-  font-size: 10px;
-  font-weight: 500;
-  position: fixed;
-  bottom: 2vh;
-  height: 2vh;
-  right: 10vw;
+  bottom: 0vh;
+  height: 6vh;
+  line-height: 6vh;
+  width: 100vw;
+  background-color: #fff;
 }

@@ -1,7 +1,7 @@
 import './App.css';
 
 import React, { Component } from 'react';
-import Item from './Item';
+// import Item from './Item';
 import ItemDetails from './ItemDetails';
 import {ItemMap} from './ItemMap';
 
@@ -31,13 +31,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header"> kalli retzepi</div> 
-        <div className="App-container">
-          {ItemMap.map((d,i) => <Item key={i} id={i} name={d.name} text={d.text} onClick={this.updateText} />)} 
+        <div className="App-Header"> kalli retzepi</div> 
+        
+        {/* {ItemMap.map((d,i) => <Item key={i} id={i} name={d.name} text={d.text} onClick={this.updateText} />)} */}
+
+        <div className="App-Container">
+          {ItemMap.map((d,i) => <ItemDetails key={i} id={i} text={d.text} />)} 
         </div>
-        <ItemDetails text={ItemMap[this.state.clickedID].text} />
-        <div className="about"> kallirroi.retzepi [at] gmail.com | @kallirroi</div>
-        <div className="footer">made by K. – 2017</div>
+
+        <div className="About"> kallirroi.retzepi [at] gmail.com | @kallirroi</div>
       </div>
     );
   }
