@@ -39,7 +39,7 @@ class Menu extends React.Component {
 		  		<span className={this.state.classNameAbout} onClick={this.showAbout} >About</span>
 		  	</div>
 		  	<div className={this.state.classNameAboutText}>
-	          {AboutMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text}/>)} 
+	          {AboutMap.map((d,i) => <Item key={i} id={i} text={d.text}/>)} 
 	        </div>  
         </div>
     );

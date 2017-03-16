@@ -63,7 +63,7 @@
   font-weight: 400; 
 }
 
-.App-Container-isVisible {
+.App-Container {
   display: block;
   top: 10vh;
   position: relative;
@@ -71,23 +71,23 @@
   overflow-y: scroll;
 }
 
-.App-Container-isHidden {
-  display: none;
-}
-
 .App-About-isHidden { 
   display: none;
 }
 
 .App-About-isVisible {
+  position: fixed;
   display: block;
-  top: 10vh;
-  left: 0;
-  position: relative;
-  margin: 0 auto;
-  border: 1px solid green;
+  top: 4vw;
+  left: 0vw;
+  padding-top: 10vh;
+  padding-left: 38.5vw;
+  /*border: 1px solid green;*/
+  background: #fff;
   z-index: 3;
-  height: 50vh;
+  height: 76.5vh;
+  width: 98vw;
+  overflow: hidden;
 }
 
 .Item { 
@@ -154,6 +154,8 @@ img {
   height: 6vh;
   line-height: 6vh;
   width: 100vw;
+  left: 0vw;
+  padding-left: 6vw;
   background-color: #fff;
 }
 
