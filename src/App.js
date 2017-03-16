@@ -11,8 +11,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      clickedID: 0,
-      projects: true
+      clickedID: null,
+      photosShow: false
     };
     this.showPhotos = this.showPhotos.bind(this);
   }
@@ -26,8 +26,9 @@ class App extends Component {
   }
   
   showPhotos(e) {
-    if (e.target.id.length>0) this.setState({clickedID: e.target.id});
-    // console.log(this.state.clickedID)
+    e.preventDefault();
+    e.target.id > 0 ? this.setState({clickedID: e.target.id, photosShow: true}) : this.setState({clickedID: e.target.id, photosShow: false});
+
   }
 
   render() {
@@ -36,7 +37,7 @@ class App extends Component {
         <div className="App-Header"> kalli retzepi</div> 
         <Menu projects={this.state.projects}/> 
         <div className="App-Container">
-          {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} links={d.links} onClick={this.showPhotos}/>)} 
+          {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} links={d.links}/>)}
         </div>      
         <div className="About"> <a href="mailto:kallirroi.retzepi@gmail.com">contact</a></div>
       </div>

@@ -45,21 +45,25 @@ body {
 }
 
 .App-Menu-Projects-isActive {
+  margin-right: 0.5vw;
   border-bottom: 1px solid #000;
   cursor: url(cursor_oval.png), auto;
 }
 
 .App-Menu-Projects-isNotActive {
+  margin-right: 0.5vw;
   border-bottom: none;
   cursor: url(cursor_oval.png), auto;
 }
 
 .App-Menu-About-isActive {
+  margin-left: 0.5vw;
   border-bottom: 1px solid #000;
   cursor: url(cursor_oval.png), auto;
 }
 
 .App-Menu-About-isNotActive {
+  margin-left: 0.5vw;
   border-bottom: none;
   cursor: url(cursor_oval.png), auto;
 }
@@ -93,17 +97,22 @@ body {
   display: inline-block;
   position: relative;
   width:  20vw;
-  height: 20vh;
+  height: 30vh;
   /*border: 1px solid red;*/
   margin-right: 50px;
   margin-bottom: 8vh;
   overflow-y: scroll;
+  /*opacity: 0.8;*/
 }
 
+.Item:hover {
+  /*opacity: 1;*/
+}
 
 .Item-Header{
   font-weight: 800;
 }
+
 
 .Item-Type  {
   font-weight: 400;
@@ -112,19 +121,22 @@ body {
 
 .Item-Text {
   margin-top: 2.2vh;
+  margin-right: 0.6vw;
+  word-wrap: break-word;
 }
 
-.Item-Text:hover {
+/*.Item-Text:hover {
   text-decoration: underline;
-}
+}*/
 
 .Item-Links{
-  margin-top: 2.6vh;
-  padding-top: 0.4vh;
+  bottom: 1vh;
   font-weight: 400;
   font-size: 11px;
-  width: 1vw;
-  border-top: 1px solid #000;
+  width: auto;
+  position: absolute;
+  display: block;
+  /*border: 1px solid #000;*/
 }
 
 
