@@ -4,26 +4,48 @@
 .App {
   font-size: 12px;
   line-height: 16px;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.05rem;
   font-weight:  400;
   font-family:  'Helvetica Neue', 'Source Sans Pro', sans-serif;
-  padding:  2.2vw 2.2vw 0.34vw 4.6vw;
+  padding:  0 2.2vw 0.34vw 4.6vw;
   width: 1363px;
+  overflow-x: hidden;
 }
 
 .App-Header {
   font-weight: 500;
   font-size: 16px;
   text-transform: uppercase;
+  position: fixed;
   display: block;
-  position: relative;
-  top: 2vh;
+  height: 6vh;
+  line-height: 6vh;
+  padding-top: 2vh;
+  width: 91vw;
+  background-color: #fff;
   /*border: 1px solid blue;*/
+  z-index: 1;
+}
+
+.App-Menu {
+  display: block;
+  position: fixed;  
+  z-index: 2;
+  text-transform: uppercase;
+  height: 6vh;
+  line-height: 6vh;
+  padding-top: 2vh;
+  /*border: 1px solid blue;*/
+  left: 46vw;
+}
+
+.Projects-isActive {
+  font-weight: 500;
 }
 
 .App-Container {
-  vertical-align: top;
   display: block;
+  top: 10vh;
   position: relative;
   /*border: 1px solid green;*/
   overflow-y: scroll;
@@ -36,10 +58,18 @@
   height: 50vh;
   /*border: 1px solid red;*/
   margin-right: 50px;
-  margin-top: 10vh;
+  margin-bottom: 10vh;
   overflow: scroll;
+  color: #000;
 }
 
+.ItemDetails:hover {
+  text-decoration: underline;
+}
+
+.Item-Header {
+  font-weight: 800;
+}
 
 a {
   text-decoration: none;
@@ -47,9 +77,30 @@ a {
   cursor: url(cursor_oval.png), auto;
 }
 
+a:hover {
+  text-decoration: none;
+
+}
 img {
   width: 30vw;
 }
+
+
+.About {
+  /*text-decoration: underline;*/
+  text-transform: uppercase;
+  font-weight: 500;
+  position: fixed;
+  bottom: 0vh;
+  height: 6vh;
+  line-height: 6vh;
+  width: 100vw;
+  background-color: #fff;
+}
+
+
+/* ------------- CSS tricks---------------- */
+
 
 ::selection {
   background: #00f; 
@@ -58,14 +109,4 @@ img {
 ::-moz-selection {
   background: #00f; /* Gecko Browsers */
   color: #fff
-}
-
-.About {
-  text-decoration: underline;;
-  position: fixed;
-  bottom: 0vh;
-  height: 6vh;
-  line-height: 6vh;
-  width: 100vw;
-  background-color: #fff;
 }

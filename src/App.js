@@ -11,7 +11,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      clickedID: 0
+      activePage: "Projects-isActive"
     };
     this.updateText = this.updateText.bind(this);
   }
@@ -25,21 +25,22 @@ class App extends Component {
   }
   
   updateText() {
-    console.log('hey')
+    console.log(this.state.activePage)
   }
 
   render() {
     return (
       <div className="App">
         <div className="App-Header"> kalli retzepi</div> 
+        <div className="App-Menu"> <span className={this.state.activePage}>projects</span> | about </div> 
         
         {/* {ItemMap.map((d,i) => <Item key={i} id={i} name={d.name} text={d.text} onClick={this.updateText} />)} */}
 
         <div className="App-Container">
-          {ItemMap.map((d,i) => <ItemDetails key={i} id={i} text={d.text} />)} 
+          {ItemMap.map((d,i) => <ItemDetails key={i} text={d.text} onClick={this.updateText} />)} 
         </div>
 
-        <div className="About"> kallirroi.retzepi [at] gmail.com</div>
+        <div className="About"> contact</div>
       </div>
     );
   }
