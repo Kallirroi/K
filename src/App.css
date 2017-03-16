@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
 
 
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;  
+}
+
 .App {
   font-size: 12px;
   line-height: 16px;
@@ -9,7 +14,6 @@
   font-family:  'Helvetica Neue', 'Source Sans Pro', sans-serif;
   padding:  0 2.2vw 0.34vw 4.6vw;
   width: 1363px;
-  overflow-x: hidden;
 }
 
 .App-Header {
@@ -36,7 +40,8 @@
   line-height: 6vh;
   padding-top: 2vh;
   /*border: 1px solid blue;*/
-  left: 44vw;
+  left: 42vw;
+  font-size: 16px;
 }
 
 .App-Menu-Projects-isActive {
@@ -65,10 +70,9 @@
 
 .App-Container {
   display: block;
-  top: 10vh;
+  top: 11vh;
   position: relative;
   /*border: 1px solid green;*/
-  overflow-y: scroll;
 }
 
 .App-About-isHidden { 
@@ -87,23 +91,19 @@
   z-index: 3;
   height: 76.5vh;
   width: 98vw;
-  overflow: hidden;
 }
 
 .Item { 
   display: inline-block;
   position: relative;
   width:  20vw;
-  height: 50vh;
+  height: 20vh;
   /*border: 1px solid red;*/
   margin-right: 50px;
-  margin-bottom: 10vh;
-  overflow: scroll;
+  margin-bottom: 8vh;
+  overflow-y: scroll;
 }
 
-.Item:hover {
-  text-decoration: underline;
-}
 
 .Item-Header{
   font-weight: 800;
@@ -111,35 +111,35 @@
 
 .Item-Type  {
   font-weight: 400;
+  margin-top: 0.5vh;
 }
 
-.Item-Text { 
-
+.Item-Text {
+  margin-top: 2.6vh;
 }
 
-.Item-Links {
-  margin-top: 2vh;
-  padding-top: 0.3vh;
+.Item-Text:hover {
+  text-decoration: underline;
+}
+
+.Item-Links{
+  margin-top: 2.6vh;
+  padding-top: 0.4vh;
   font-weight: 400;
   font-size: 11px;
-  width: 0.5vw;
+  width: 1vw;
   border-top: 1px solid #000;
 }
 
-.Item-Links:hover {
-  font-weight: 500;
-}
 
 a {
   text-decoration: none;
   color: inherit;
+  font-weight: 500;
   cursor: url(cursor_oval.png), auto;
 }
 
-a:hover {
-  text-decoration: none;
 
-}
 img {
   width: 30vw;
 }
@@ -155,7 +155,7 @@ img {
   line-height: 6vh;
   width: 100vw;
   left: 0vw;
-  padding-left: 6vw;
+  padding-left: 4.6vw;
   background-color: #fff;
 }
 

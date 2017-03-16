@@ -35,11 +35,11 @@ class Menu extends React.Component {
     return (
 	  	<div> 
 		  	<div className="App-Menu">
-		  		<span className={this.state.classNameProjects} onClick={this.showProjects} >Projects</span> |
+		  		<span className={this.state.classNameProjects} onClick={this.showProjects} >Projects</span>•
 		  		<span className={this.state.classNameAbout} onClick={this.showAbout} >About</span>
 		  	</div>
 		  	<div className={this.state.classNameAboutText}>
-	          {AboutMap.map((d,i) => <Item key={i} id={i} text={d.text}/>)} 
+	          {AboutMap.map((d,i) => <Item key={i} id={i} links={d.links} text={d.text}/>)} 
 	        </div>  
         </div>
     );
