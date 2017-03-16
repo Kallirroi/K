@@ -14,7 +14,7 @@ export const ItemMap = [
 	{
 		header: 'I just can‘t decide',
 		type: 'web design + dev',
-		text: '...how my website should look. It is something that varies with my mood, the seasons, what I am working on, and what web technology I want to experiment with. I decided to dedicate some space on my website in order to archive the previous versions.</p>',
+		text: '...how my website should look. It is something that varies with my mood, the seasons, what I am working on, and what web technology I want to experiment with. I decided to dedicate some space on my website in order to archive the previous versions.',
 		links:'<a href="http://samtous.wtf/" target="_blank">link</a>',
 		photos: '<img src="./images/K.png">'
 	},
@@ -27,7 +27,7 @@ export const ItemMap = [
 	{
 		header: 'archmix.es ',
 		type: 'web design + dev',
-		text: '"Tweeting from your couch, in your sweats, can be an architectural act."',
+		text: 'This website serves as a navigation page for a project about architecture and its circulation online. It revolves around a Twitter bot that anyone can use to make architectural mashups, that then get sent to different places around the web variously as images, 3d models, and sales listings.',
 		links:'<a href="http://archmix.es/" target="_blank"> link</a>'
 	},
 	{

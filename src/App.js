@@ -38,7 +38,7 @@ class App extends Component {
         <Menu projects={this.state.projects}/> 
         <div className="App-Container">
           {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} links={d.links}/>)}
-        </div>      
+        </div>     
         <div className="About"> <a href="mailto:kallirroi.retzepi@gmail.com">contact</a></div>
       </div>
     );

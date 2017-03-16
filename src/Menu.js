@@ -40,7 +40,7 @@ class Menu extends React.Component {
 		  	</div>
 		  	<div className={this.state.classNameAboutText}>
 	          {AboutMap.map((d,i) => <Item key={i} id={i} links={d.links} text={d.text}/>)} 
-	        </div>  
+	      </div>  
         </div>
     );
   }
