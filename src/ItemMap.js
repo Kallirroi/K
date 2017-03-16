@@ -1,11 +1,5 @@
 export const ItemMap = [
 	{
-		header: 'about',
-		type: 'about',
-		text: '<p> My name is Kallirroi; many people call me Kalli. I explore the space found at the intersection of design, engineering, science and images.</p>  <p>In my free time I run long distances, read, write, photograph, and have espresso-fueled debates, often about politics.</p>',
-		links: ''
-	},
-	{
 		header: 'The road to school',
 		type: 'web development, datavis, storytelling',
 		text: '<p>  an interactive visualization about how the Syrian conflict is stopping millions of children from going to school</p>Overall, this was the most productive and busiest month of 2016 for me, and also the most rewarding. I left Zurich filled with new knowledge, experiences, ways of thinking and exposure to the most important facets of data visualization and interaction design. I will be missing every single member of this team, and I am very excited to see what 2017 has in store for them and myself. Things will be creative!',

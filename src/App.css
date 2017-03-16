@@ -63,13 +63,31 @@
   font-weight: 400; 
 }
 
-
-.App-Container {
+.App-Container-isVisible {
   display: block;
   top: 10vh;
   position: relative;
   /*border: 1px solid green;*/
   overflow-y: scroll;
+}
+
+.App-Container-isHidden {
+  display: none;
+}
+
+.App-About-isHidden { 
+  display: none;
+}
+
+.App-About-isVisible {
+  display: block;
+  top: 10vh;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+  border: 1px solid green;
+  z-index: 3;
+  height: 50vh;
 }
 
 .Item { 

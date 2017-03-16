@@ -35,9 +35,9 @@ class App extends Component {
       <div className="App">
         <div className="App-Header"> kalli retzepi</div> 
         <Menu projects={this.state.projects}/> 
-        <div className="App-Container">
+        <div className="App-Container-isVisible">
           {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} links={d.links} onClick={this.showPhotos} />)} 
-        </div>
+        </div>      
         <div className="About"> contact</div>
       </div>
     );
