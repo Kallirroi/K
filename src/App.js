@@ -11,6 +11,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      clickedID: 0,
       activePage: "Projects-isActive"
     };
     this.updateText = this.updateText.bind(this);
@@ -24,8 +25,9 @@ class App extends Component {
     window.removeEventListener('click', this.updateText);
   }
   
-  updateText() {
-    console.log(this.state.activePage)
+  updateText(e) {
+    if (e.target.id.length>0) this.setState({clickedID: e.target.id});
+    console.log(this.state.clickedID)
   }
 
   render() {
@@ -37,7 +39,7 @@ class App extends Component {
         {/* {ItemMap.map((d,i) => <Item key={i} id={i} name={d.name} text={d.text} onClick={this.updateText} />)} */}
 
         <div className="App-Container">
-          {ItemMap.map((d,i) => <ItemDetails key={i} text={d.text} onClick={this.updateText} />)} 
+          {ItemMap.map((d,i) => <ItemDetails key={i} id={i} text={d.text} onClick={this.updateText} />)} 
         </div>
 
         <div className="About"> contact</div>
