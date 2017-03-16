@@ -37,7 +37,7 @@ class App extends Component {
         <div className="App-Header"> kalli retzepi</div> 
         <Menu projects={this.state.projects}/> 
         <div className="App-Container">
-          {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} links={d.links}/>)}
+          {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} photos={d.photos} links={d.links}/>)}
         </div>     
         <div className="About"> <a href="mailto:kallirroi.retzepi@gmail.com">contact</a></div>
       </div>

@@ -93,11 +93,15 @@ body {
   width: 98vw;
 }
 
+.App-About-isVisible > .Item {
+  height: 80vh;
+}
+
 .Item { 
   display: inline-block;
   position: relative;
   width:  20vw;
-  height: 30vh;
+  height: 35vh;
   /*border: 1px solid red;*/
   margin-right: 50px;
   margin-bottom: 8vh;
@@ -129,8 +133,20 @@ body {
   text-decoration: underline;
 }*/
 
+.Item-Photos{
+  top: 3.5vh;
+  font-weight: 500;
+  font-size: 11px;
+  width: 1vw;
+  padding-top: 0.6vh;
+  position: relative;
+  display: block;
+  border-top: 1px solid #000;
+  cursor: url(cursor_oval.png), auto;
+}
+
 .Item-Links{
-  top: 3vh;
+  top: 3.5vh;
   font-weight: 400;
   font-size: 11px;
   width: auto;
