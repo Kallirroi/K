@@ -51,7 +51,7 @@
   overflow-y: scroll;
 }
 
-.ItemDetails { 
+.Item { 
   display: inline-block;
   position: relative;
   width:  20vw;
@@ -60,15 +60,35 @@
   margin-right: 50px;
   margin-bottom: 10vh;
   overflow: scroll;
-  color: #000;
 }
 
-.ItemDetails:hover {
-  text-decoration: underline;
+.Item:hover {
+  text-decoration: line-through;
 }
 
-.Item-Header {
+.Item-Header{
   font-weight: 800;
+}
+
+.Item-Type  {
+  font-weight: 400;
+}
+
+.Item-Text { 
+
+}
+
+.Item-Links {
+  margin-top: 2vh;
+  padding-top: 0.3vh;
+  font-weight: 400;
+  font-size: 11px;
+  width: 0.5vw;
+  border-top: 1px solid #000;
+}
+
+.Item-Links:hover {
+  font-weight: 500;
 }
 
 a {
