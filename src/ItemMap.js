@@ -3,13 +3,13 @@ export const ItemMap = [
 		header: 'The road to school',
 		type: 'datavis + storytelling',
 		text: 'I believe that education and literacy are the most important tools each person in our world can have, and it is currently being taken away from millions of Syrian children. This data visualization and storytelling experience addresses this issue and aims to sensitize the audience to it. ',
-		links:'<a href="lab.interactivethings.com/road-to-school/" target="_blank">link</a>'
+		links:'<a href="https://lab.interactivethings.com/road-to-school/" target="_blank">link</a>'
 	},
 	{
 		header: 'photography',
 		type: 'personal',
-		text: 'I use film (Fujicolor 200 is my go-to choice) and carry a small point-and-shoot Olympus XA in my bag. <p>Instead of snapping a photo with my phone, I do it with my small film camera - a way to teach my eyes to not be so hungry to see the result right away. </p>' ,
-		links:'<a href="http://cargocollective.com/kallirroi" target="_blank">link</a><br> <a href="http://velveteyes.net/features/kalli-retzepi/" target="_blank">#1</a><a href="http://www.c41magazine.it/kalli-retzepi-goes-find-light/" target="_blank">#2</a><a href="http://www.thisiswander.com/post/157453662292/kalli-retzepi-boston-usa-zurich-switzerland" target="_blank"> #3</a>'
+		text: 'I use film (Fujicolor 200 is my go-to choice) and carry a small point-and-shoot Olympus XA in my bag.' ,
+		links:'<a href="http://cargocollective.com/kallirroi" target="_blank">link</a><br> <a href="http://velveteyes.net/features/kalli-retzepi/" target="_blank">#1</a> <br><a href="http://www.c41magazine.it/kalli-retzepi-goes-find-light/" target="_blank">#2</a><a href="http://www.thisiswander.com/post/157453662292/kalli-retzepi-boston-usa-zurich-switzerland" target="_blank"> #3</a>'
 	},
 	{
 		header: 'thoughtless acts',
@@ -33,20 +33,20 @@ export const ItemMap = [
 		header: 'responsive d3.js charts',
 		type: 'web dev',
 		text: 'My contribution to visualization library for the website of the city of Zurich.',
-		links:'<a href="lab.interactivethings.com/road-to-school/" target="_blank">link</a>'
+		links:''
 	},	
 	{
 		header: 'p5.js sketches',
 		type: 'creative coding',
 		text: 'My experiments with the javascript version of Processing.',
-		links:'<a href="http://cargocollective.com/kallirroi/generative-code" target="_blank">link</a>'
+		links:'<a href="https://github.com/Kallirroi/p5" target="_blank">link</a>'
 	},	
 
 	{
 		header: 'master thesis',
 		type: 'research',
 		text: ' My Master thesis demonstrates the feasibility of identifying, retrieving and analyzing for research purposes data from clinical MRI scans acquired in patients with chronic focal pain diagnoses. A computerized brain model as well as morphometric indices were generated for each patient.',
-		links:'<a href="lab.interactivethings.com/road-to-school/" target="_blank">link</a>'
+		links:''
 	},
 	{
 		header: 'birthday cake robot ',
@@ -63,7 +63,7 @@ export const ItemMap = [
 	{
 		header: 'EXPLORA',
 		type: 'design',
-		text: '  collaboration for a visual storytelling project on behalf of the ETH Library',
+		text: 'A collaboration for a visual storytelling project on behalf of the ETH Library.',
 		links:'<a href="https://www.explora.ethz.ch/" target="_blank"> link</a>'
 	}
 ];	

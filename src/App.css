@@ -45,32 +45,28 @@ body {
 }
 
 .App-Menu-Projects-isActive {
-  margin-left: 0.5vw;
-  margin-right: 0.5vw;
-  font-weight: 500; 
+  border-bottom: 1px solid #000;
+  cursor: url(cursor_oval.png), auto;
 }
 
 .App-Menu-Projects-isNotActive {
-  margin-left: 0.5vw;
-  margin-right: 0.5vw;
-  font-weight: 400; 
+  border-bottom: none;
+  cursor: url(cursor_oval.png), auto;
 }
 
 .App-Menu-About-isActive {
-  margin-left: 0.5vw;
-  margin-right: 0.5vw;
-  font-weight: 500; 
+  border-bottom: 1px solid #000;
+  cursor: url(cursor_oval.png), auto;
 }
 
 .App-Menu-About-isNotActive {
-  margin-left: 0.5vw;
-  margin-right: 0.5vw;
-  font-weight: 400; 
+  border-bottom: none;
+  cursor: url(cursor_oval.png), auto;
 }
 
 .App-Container {
   display: block;
-  top: 11vh;
+  top: 13vh;
   position: relative;
   /*border: 1px solid green;*/
 }
@@ -115,7 +111,7 @@ body {
 }
 
 .Item-Text {
-  margin-top: 2.6vh;
+  margin-top: 2.2vh;
 }
 
 .Item-Text:hover {
