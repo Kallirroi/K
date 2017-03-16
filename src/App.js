@@ -1,8 +1,8 @@
 import './App.css';
 
 import React, { Component } from 'react';
+import Menu from './Menu';
 import Item from './Item';
-// import ItemDetails from './ItemDetails';
 import {ItemMap} from './ItemMap';
 
 
@@ -12,30 +12,31 @@ class App extends Component {
     super(props);
     this.state = {
       clickedID: 0,
+      projects: true
     };
-    this.updateText = this.updateText.bind(this);
+    this.showPhotos = this.showPhotos.bind(this);
   }
  
   componentDidMount() {
-    window.addEventListener('click', this.updateText);
+    window.addEventListener('click', this.showPhotos);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('click', this.updateText);
+    window.removeEventListener('click', this.showPhotos);
   }
   
-  updateText(e) {
+  showPhotos(e) {
     if (e.target.id.length>0) this.setState({clickedID: e.target.id});
-    console.log(this.state.clickedID)
+    // console.log(this.state.clickedID)
   }
 
   render() {
     return (
       <div className="App">
         <div className="App-Header"> kalli retzepi</div> 
-        <div className="App-Menu"> projects | about </div> 
+        <Menu projects={this.state.projects}/> 
         <div className="App-Container">
-          {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} links={d.links} onClick={this.updateText} />)} 
+          {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} links={d.links} onClick={this.showPhotos} />)} 
         </div>
         <div className="About"> contact</div>
       </div>
