@@ -27,7 +27,7 @@ class App extends Component {
   }
   
   showPhotos(e) {
-    e.target.id ? this.setState({clickedID: e.target.id, classNamePhotos:"ItemPhoto-isVisible" }) : this.setState({clickedID: 0, classNamePhotos: "ItemPhoto-isNotVisible"});
+    e.target.className === "Item-Photos-Button"? this.setState({clickedID: e.target.id, classNamePhotos:"ItemPhoto-isVisible" }) : this.setState({clickedID: 0, classNamePhotos: "ItemPhoto-isNotVisible"});
   }
 
   render() {
