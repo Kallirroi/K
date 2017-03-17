@@ -4,14 +4,15 @@ import React, { Component } from 'react';
 import Menu from './Menu';
 import Item from './Item';
 import {ItemMap} from './ItemMap';
-
+import ItemPhoto from './ItemPhoto';
+import {ItemPhotoMap} from './ItemPhotoMap';
 
 class App extends Component {
   
   constructor(props) {
     super(props);
     this.state = {
-      clickedID: null,
+      clickedID: 0,
       photosShow: false
     };
     this.showPhotos = this.showPhotos.bind(this);
@@ -26,8 +27,7 @@ class App extends Component {
   }
   
   showPhotos(e) {
-    e.target.id > 0 ? this.setState({clickedID: e.target.id, photosShow: true}) : this.setState({clickedID: e.target.id, photosShow: false});
-
+    e.target.id ? this.setState({clickedID: e.target.id, photosShow: true}) : this.setState({clickedID: 0, photosShow: false});
   }
 
   render() {
@@ -36,8 +36,9 @@ class App extends Component {
         <div className="App-Header"> kalli retzepi</div> 
         <Menu projects={this.state.projects}/> 
         <div className="App-Container">
-          {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} photos={d.photos} links={d.links}/>)}
+          {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} photos={d.photos} links={d.links}/>) }
         </div>     
+        <ItemPhoto photos={ItemPhotoMap[this.state.clickedID].photos} />
         <div className="About"> <a href="mailto:kallirroi.retzepi@gmail.com">contact</a></div>
       </div>
     );
