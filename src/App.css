@@ -133,9 +133,9 @@ body {
   text-decoration: underline;
 }*/
 
-.Item-Photos{
+.Item-Photos {
   top: 3.5vh;
-  font-weight: 500;
+  /*font-weight: 500;*/
   font-size: 11px;
   width: 1vw;
   padding-top: 0.6vh;
@@ -143,6 +143,10 @@ body {
   display: block;
   border-top: 1px solid #000;
   cursor: url(cursor_oval.png), auto;
+}
+
+.Item-Photos:hover {
+   text-decoration: line-through;  
 }
 
 .Item-Links{
@@ -155,13 +159,17 @@ body {
   /*border: 1px solid #000;*/
 }
 
+.Item-Links > a:hover {
+  text-decoration: line-through; 
+}
 
 a {
   text-decoration: none;
   color: inherit;
-  font-weight: 500;
+  /*font-weight: 500;*/
   cursor: url(cursor_oval.png), auto;
 }
+
 
 
 .App-Photos {
