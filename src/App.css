@@ -89,7 +89,7 @@ body {
   /*border: 1px solid green;*/
   background: #fff;
   z-index: 3;
-  height: 76.5vh;
+  height: 78vh;
   width: 98vw;
 }
 
@@ -103,7 +103,7 @@ body {
   width:  20vw;
   height: 35vh;
   /*border: 1px solid red;*/
-  margin-right: 50px;
+  margin-right: 2.5vw;
   margin-bottom: 8vh;
   overflow-y: scroll;
 }
