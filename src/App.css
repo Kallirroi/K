@@ -165,14 +165,14 @@ body {
   position: fixed;
   display: block;
   top: 10vh;
-  left: 30vw;
-  background: rgba(255,255,255,0.6);
+  left: 25vw;
+  /*background: rgba(255,255,255,0.6);*/
   cursor: move;
   /*border: 1px solid red;*/
 }
 
 .ItemPhoto-isVisible > img {
-  width: 40vw;
+  width: 50vw;
   margin-top: 1vh;
   cursor: move;
 }

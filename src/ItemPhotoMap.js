@@ -5,21 +5,21 @@ export const ItemPhotoMap = [
 	},
 	{
 		header: 'Film photography',
-		photos: '<img src="http://payload402.cargocollective.com/1/18/596066/10350711/prt_1485670063.JPG">'
+		photos: '<img src="http://payload359.cargocollective.com/1/18/596066/9499254/A184498_006A_670.jpg">'
 
 	},
 	{
 		header: 'I just can‘t decide',
-		photos: '<img src="http://payload402.cargocollective.com/1/18/596066/10350711/prt_1485670063.JPG">'
+		photos: '<img src="https://raw.githubusercontent.com/Kallirroi/K/master/screegrabs/030317.png">'
 	},
 	{
 		header: 'samtous.wtf',
-		photos: '<img src="http://payload402.cargocollective.com/1/18/596066/10350711/prt_1485670063.JPG">'
+		photos: '<img src="http://payload359.cargocollective.com/1/18/596066/9499254/A184498_006A_670.jpg">'
 
 	},
 	{
 		header: 'archmix.es ',
-		photos: '<img src="http://payload402.cargocollective.com/1/18/596066/10350711/prt_1485670063.JPG">'
+		photos: '<img src="http://payload359.cargocollective.com/1/18/596066/9499254/A184498_006A_670.jpg">'
 
 	},
 	{
@@ -53,7 +53,7 @@ export const ItemPhotoMap = [
 	},
 	{
 		header: 'EXPLORA',
-		photos: '<img src="http://payload402.cargocollective.com/1/18/596066/10350711/prt_1485670063.JPG">'
+		photos: '<img src="http://payload359.cargocollective.com/1/18/596066/9499254/A184498_006A_670.jpg">'
 
 	},
 	{
