@@ -41,22 +41,22 @@ export const ItemMap = [
 		header: 'Responsive d3.js charts library',
 		type: 'web dev',
 		text: 'While I was working at IXT, I contributed to the making of a Javascript library that facilitates the creation of d3.js data visualizations for the City of Zurich official website, using the reusable chart pattern.',
-		links:'<a href="https://www.stadt-zuerich.ch/content/prd/de/index/statistik/publikationen-angebote/publikationen/webartikel/2016-02-23_Wohnbautaetigkeit-auf-Rekordniveau.html">link #1</a> • <a href="https://www.stadt-zuerich.ch/content/prd/de/index/statistik/publikationen-angebote/publikationen/webartikel/2015-12-17_Wohneigentum-in-der-Stadt-Zuerich.html">link #2</a>',
+		links:'<a href="https://www.stadt-zuerich.ch/content/prd/de/index/statistik/publikationen-angebote/publikationen/webartikel/2016-02-23_Wohnbautaetigkeit-auf-Rekordniveau.html" target="_blank">link #1</a> • <a href="https://www.stadt-zuerich.ch/content/prd/de/index/statistik/publikationen-angebote/publikationen/webartikel/2015-12-17_Wohneigentum-in-der-Stadt-Zuerich.html" target="_blank">link #2</a>',
 		photos: 'images'
 
 	},	
 	{
 		header: 'EBOLA risk prediction app',
 		type: 'UI/UX design',
-		text: 'I volunteered to create the UI design as well as the Android implementation of a mobile app that packages the best models of a machine learning pipeline for Ebola Virus Disease (EVD) prognosis predictions. The risk prediction algorithms were already developed by the project‘s leader <a href="https://www.sabetilab.org/andres-colubri/">(Andres Colubri)</a>.',
-		links:'<a href="http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0004549">link</a>',
+		text: 'I volunteered to create the UI design as well as the Android implementation of a mobile app that packages the best models of a machine learning pipeline for Ebola Virus Disease (EVD) prognosis predictions. The risk prediction algorithms were already developed by the project‘s leader <a href="https://www.sabetilab.org/andres-colubri/" target="_blank">(Andres Colubri)</a>.',
+		links:'<a href="http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0004549" target="_blank">link</a>',
 		photos: 'images'
 
 	},
 	{
 		header: 'Thoughtless acts',
 		type: 'design thinking',
-		text: 'This is an ongoing exploration of the myriad of ways we inhabit the world around us - most often without noticing it. Inspired by the book of Jane Fulton Suri of IDEO titled <a href="https://www.ideo.com/post/thoughtless-acts">"Thoughtless Acts"</a>, it is an exercise in seeing rather than looking at the different types of interactions we engage in with our surroundings. ',
+		text: 'This is an ongoing exploration of the myriad of ways we inhabit the world around us - most often without noticing it. Inspired by the book of Jane Fulton Suri of IDEO titled <a href="https://www.ideo.com/post/thoughtless-acts" target="_blank">"Thoughtless Acts"</a>, it is an exercise in seeing rather than looking at the different types of interactions we engage in with our surroundings. ',
 		links:'<a href="http://cargocollective.com/kallirroi/thoughtless-acts" target="_blank">link</a>',
 		photos: 'images'
 

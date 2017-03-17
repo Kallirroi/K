@@ -16,7 +16,6 @@ class Menu extends React.Component {
   }
   
   showProjects(e) {
-  	console.log('showProjects')
 	this.setState({classNameProjects: "App-Menu-Projects-isActive"});
 	this.setState({classNameAbout: "App-Menu-About-isNotActive"});
 	this.setState({classNameAboutText: "App-About-isHidden"});
@@ -24,7 +23,6 @@ class Menu extends React.Component {
   }    
 
   showAbout(e) {
-  	console.log('showAbout')
 	this.setState({classNameProjects: "App-Menu-Projects-isNotActive"});
 	this.setState({classNameAbout: "App-Menu-About-isActive"});
 	this.setState({classNameAboutText: "App-About-isVisible"});

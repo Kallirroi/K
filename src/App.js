@@ -26,7 +26,6 @@ class App extends Component {
   }
   
   showPhotos(e) {
-    e.preventDefault();
     e.target.id > 0 ? this.setState({clickedID: e.target.id, photosShow: true}) : this.setState({clickedID: e.target.id, photosShow: false});
 
   }
