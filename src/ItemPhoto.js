@@ -1,11 +1,10 @@
 import React from 'react';
 
-
 class ItemPhoto extends React.Component {
 
 render() {
 	return (
-	  	<div className="ItemPhoto-isVisible " id={this.props.id} dangerouslySetInnerHTML={{__html: this.props.photos}}></div>
+		<div className={this.props.className} id={this.props.id} dangerouslySetInnerHTML={{__html: this.props.photos}}></div>
 	);
 	}
 }

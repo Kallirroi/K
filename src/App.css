@@ -155,24 +155,26 @@ body {
   text-decoration: line-through; 
 }
 
-.ItemPhoto {
+.ItemPhoto-isNotVisible {
   position: absolute;
-  visibility: hidden;
+  display: none;
+  cursor: move;
 }
 
 .ItemPhoto-isVisible {
   position: fixed;
-  visibility: visible;
   display: block;
   top: 10vh;
   left: 30vw;
   background: rgba(255,255,255,0.6);
+  cursor: move;
   /*border: 1px solid red;*/
 }
 
 .ItemPhoto-isVisible > img {
   width: 40vw;
   margin-top: 1vh;
+  cursor: move;
 }
 
 a {

@@ -13,7 +13,7 @@ class App extends Component {
     super(props);
     this.state = {
       clickedID: 0,
-      photosShow: false
+      classNamePhotos: "ItemPhoto-isNotVisible"
     };
     this.showPhotos = this.showPhotos.bind(this);
   }
@@ -27,7 +27,7 @@ class App extends Component {
   }
   
   showPhotos(e) {
-    e.target.id ? this.setState({clickedID: e.target.id, photosShow: true}) : this.setState({clickedID: 0, photosShow: false});
+    e.target.id ? this.setState({clickedID: e.target.id, classNamePhotos:"ItemPhoto-isVisible" }) : this.setState({clickedID: 0, classNamePhotos: "ItemPhoto-isNotVisible"});
   }
 
   render() {
@@ -38,7 +38,7 @@ class App extends Component {
         <div className="App-Container">
           {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} photos={d.photos} links={d.links}/>) }
         </div>     
-        <ItemPhoto photos={ItemPhotoMap[this.state.clickedID].photos} />
+        <ItemPhoto className={this.state.classNamePhotos} photos={ItemPhotoMap[this.state.clickedID].photos} />
         <div className="About"> <a href="mailto:kallirroi.retzepi@gmail.com">contact</a></div>
       </div>
     );
