@@ -57,7 +57,7 @@ export const ItemMap = [
 		header: 'Thoughtless acts',
 		type: 'design thinking',
 		text: 'This is an ongoing exploration of the myriad of ways we inhabit the world around us - most often without noticing it. Inspired by the book of Jane Fulton Suri of IDEO titled <a href="https://www.ideo.com/post/thoughtless-acts" target="_blank">"Thoughtless Acts"</a>, it is an exercise in seeing rather than looking at the different types of interactions we engage in with our surroundings. ',
-		links:'<a href="http://cargocollective.com/kallirroi/thoughtless-acts" target="_blank">link</a>',
+		links:'<a href="http://kalli.photography/thoughtless-acts" target="_blank">link</a>',
 		photos: 'image'
 
 	},	
