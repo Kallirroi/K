@@ -13,8 +13,8 @@ body {
   letter-spacing: 0.05rem;
   font-weight:  400;
   font-family:  'Helvetica Neue', 'Source Sans Pro', sans-serif;
-  padding:  0 2.2vw 0.34vw 4.6vw;
-  width: 1363px;
+  padding:  0 4.6vw 0.34vw 4.6vw;
+  /*width: 1363px;*/
 }
 
 .App-Header {
@@ -70,10 +70,13 @@ body {
 }
 
 .App-Container {
-  display: block;
   top: 13vh;
   position: relative;
   /*border: 1px solid green;*/
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
 }
 
 .App-About-isHidden { 
@@ -99,14 +102,17 @@ body {
 }
 
 .Item { 
-  display: inline-block;
+  /*display: inline-block;*/
   position: relative;
-  width:  20vw;
   height: 35vh;
   /*border: 1px solid red;*/
-  margin-right: 2.5vw;
   margin-bottom: 8vh;
   overflow-y: scroll;
+  flex: 0 0 22.2%;
+  padding-left: 1.2vw;
+  padding-right: 1.2vw;
+  align-self: flex-start;
+  justify-content: center;
 }
 
 
@@ -201,13 +207,10 @@ a {
 
 
 /* ------------- CSS tricks---------------- */
-
-
 ::-moz-selection {
   background: #00f; 
   color: #fff/* WebKit/Blink Browsers */
 }
-
 
 ::selection {
   background: #00f; 
@@ -216,4 +219,33 @@ a {
 ::-moz-selection {
   background: #00f; /* Gecko Browsers */
   color: #fff
+}
+
+
+
+/* ------------- Media Queries ---------------- */
+
+
+@media screen and (min-width: 300px){
+  .Item {
+    flex: 0 0 100%;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .Item {
+    flex: 0 0 44%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .Item {
+    flex: 0 0 35%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Item {
+    flex: 0 0 22.2%;
+  }
 }
