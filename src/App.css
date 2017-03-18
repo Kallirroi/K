@@ -227,26 +227,106 @@ a {
 /* ------------- Media Queries ---------------- */
 
 
-@media screen and (min-width: 300px){
+@media screen and (max-width: 400px){
+
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;  
+    
+  }
+
+  .App-About-isVisible {
+    position: fixed;
+    display: block;
+    top: 4vw;
+    left: 0vw;
+    padding-top: 10vh;
+    padding-left: 40vw;
+    /*border: 1px solid green;*/
+    background: #fff;
+    z-index: 3;
+    height: 82vh;
+    width: 98vw;
+  }
+
+  .App-About-isVisible {
+    position: fixed;
+    display: block;
+    top: 4vw;
+    left: 0vw;
+    padding-top: 0vh;
+    padding-left: 40vw;
+    /*border: 1px solid green;*/
+    background: #fff;
+    z-index: 3;
+    height: 82vh;
+    width: 98vw;
+  }
+
   .Item {
     flex: 0 0 100%;
   }
+
+  .App-About-isVisible {
+    position: fixed;
+    display: block;
+    top: 8vh;
+    left: 0vw;
+    padding-top: 0vh;
+    padding-left: 40vw;
+    /*border: 1px solid green;*/
+    background: #fff;
+    z-index: 3;
+    height: 88vh;
+    width: 98vw;
+  }  
+
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 400px) and (max-width: 650px){
   .Item {
     flex: 0 0 44%;
   }
+  .App-About-isVisible {
+    position: fixed;
+    display: block;
+    top: 8vh;
+    left: 0vw;
+    padding-top: 0vh;
+    padding-left: 40vw;
+    /*border: 1px solid green;*/
+    background: #fff;
+    z-index: 3;
+    height: 88vh;
+    width: 98vw;
+  }
+
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 650px) and (max-width: 900px) {
   .Item {
     flex: 0 0 35%;
   }
+
+  .App-About-isVisible {
+    position: fixed;
+    display: block;
+    top: 8vh;
+    left: 0vw;
+    padding-top: 0vh;
+    padding-left: 40vw;
+    /*border: 1px solid green;*/
+    background: #fff;
+    z-index: 3;
+    height: 88vh;
+    width: 98vw;
+  }
+
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .Item {
     flex: 0 0 22.2%;
   }
+
 }
