@@ -9,6 +9,7 @@ body {
 .App {
   font-size: 12px;
   line-height: 16px;
+  letter-spacing: 0.8px;
   letter-spacing: 0.05rem;
   font-weight:  400;
   font-family:  'Helvetica Neue', 'Source Sans Pro', sans-serif;
@@ -200,6 +201,12 @@ a {
 
 
 /* ------------- CSS tricks---------------- */
+
+
+::-moz-selection {
+  background: #00f; 
+  color: #fff/* WebKit/Blink Browsers */
+}
 
 
 ::selection {
