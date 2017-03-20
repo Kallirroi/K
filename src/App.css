@@ -104,14 +104,14 @@ body {
 .Item { 
   /*display: inline-block;*/
   position: relative;
-  width: 20vw;
+  width: 18vw;
   height: 35vh;
   /*border: 1px solid red;*/
   margin-bottom: 8vh;
   overflow-y: scroll;
   flex: 0 0 22.2%;
-  padding-left: 1.2vw;
-  padding-right: 1.2vw;
+  padding-left: 0vw;
+  padding-right: 2.4vw;
   align-self: flex-start;
   justify-content: center;
 }
