@@ -10,7 +10,7 @@ export const ItemMap = [
 		header: 'Film photography',
 		type: 'personal',
 		text: 'I use film (Fujicolor 200 is my go-to choice) and carry a small point-and-shoot Olympus XA in my bag. There is such beauty in our surroundings and it often goes by unnoticed....it brings me great joy to discover it and share it.' ,
-		links:'<a href="http://instagram.com/kallirroi" target="_blank">instagram</a> • <a href="http://velveteyes.net/features/kalli-retzepi/" target="_blank">feature #1</a> • <a href="http://www.c41magazine.it/kalli-retzepi-goes-find-light/" target="_blank">feature #2</a> • <a href="http://www.thisiswander.com/post/157453662292/kalli-retzepi-boston-usa-zurich-switzerland" target="_blank">feature #3</a>',
+		links:'<a href="http://instagram.com/kallirroi" target="_blank">instagram</a> • <a href="http://velveteyes.net/features/kalli-retzepi/" target="_blank">feature #1</a> • <a href="http://www.c41magazine.it/kalli-retzepi-goes-find-light/" target="_blank">feature #2</a> • <a href="http://www.thisiswander.com/post/157453662292/kalli-retzepi-boston-usa-zurich-switzerland" target="_blank">feature #3</a> • <a href="http://www.artupon.com/kalli-retzepi/" target="_blank">feature #3</a>',
 		photos: 'image'
 
 	},
