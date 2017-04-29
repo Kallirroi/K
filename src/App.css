@@ -7,19 +7,19 @@ body {
 }
 
 .App {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 16px;
-  letter-spacing: 0.8px;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.02rem;
   font-weight:  400;
-  font-family: 'Helvetica Neue', 'Source Sans Pro', sans-serif;
+  font-family: 'Helvetica', 'Source Sans Pro', sans-serif;
   padding:  0 4.6vw 0.34vw 4.6vw;
   /*width: 1363px;*/
 }
 
 .App-Header {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 19px;
   text-transform: uppercase;
   position: fixed;
   display: block;
@@ -41,13 +41,14 @@ body {
   line-height: 6vh;
   padding-top: 2vh;
   /*border: 1px solid blue;*/
-  left: 44vw;
+  left: calc(48vw - 90px);
   font-weight: 500;
+  font-size: 18px;
 }
 
 .App-Menu-Projects-isActive {
   margin-right: 0.5vw;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
   cursor: url(cursor_oval.png), auto;
 }
 
@@ -59,7 +60,7 @@ body {
 
 .App-Menu-About-isActive {
   margin-left: 0.5vw;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
   cursor: url(cursor_oval.png), auto;
 }
 
@@ -192,8 +193,9 @@ a {
   cursor: url(cursor_oval.png), auto;
 }
 
-.About {
+.About  > a {
   /*text-decoration: underline;*/
+  font-weight: 18px;
   text-transform: uppercase;
   font-weight: 500;
   position: fixed;
