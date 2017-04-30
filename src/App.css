@@ -75,9 +75,11 @@ body {
   position: relative;
   /*border: 1px solid green;*/
   display: flex;
+  height: 80vh;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
+  overflow-y: scroll;
 }
 
 .App-About-isHidden { 
@@ -126,6 +128,7 @@ body {
 .Item-Type  {
   font-weight: 400;
   margin-top: 0.5vh;
+  font-size: 11px;
 }
 
 .Item-Text {
@@ -195,7 +198,7 @@ a {
 
 .About  > a {
   /*text-decoration: underline;*/
-  font-weight: 18px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 500;
   position: fixed;
