@@ -9,10 +9,6 @@ export const ItemPhotoMap = [
 
 	},
 	{
-		header: 'I just can‘t decide',
-		photos: './images/K.png'
-	},
-	{
 		header: 'samtous.wtf',
 		photos: './images/samtous.png'
 
