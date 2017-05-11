@@ -71,11 +71,11 @@ body {
 }
 
 .App-Container {
-  top: 13vh;
+  top: 18vh;
   position: relative;
   /*border: 1px solid green;*/
   display: flex;
-  height: 80vh;
+  height: 75vh;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
@@ -108,7 +108,7 @@ body {
   /*display: inline-block;*/
   position: relative;
   width: 18vw;
-  height: 35vh;
+  height: 37vh;
   /*border: 1px solid red;*/
   margin-bottom: 8vh;
   overflow-y: scroll;

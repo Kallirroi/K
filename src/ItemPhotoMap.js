@@ -1,13 +1,14 @@
 export const ItemPhotoMap = [
 	{
-		header: 'The road to school',
-		photos: './images/roadtoschool.png'
-	},
-	{
 		header: 'Film photography',
 		photos: './images/photo.png'
 
 	},
+	{
+		header: 'l\'atelier magazine',
+		photos: './images/latelier.png'
+
+	},	
 	{
 		header: 'samtous.wtf',
 		photos: './images/samtous.png'
@@ -18,6 +19,10 @@ export const ItemPhotoMap = [
 		photos: './images/archmixes.png'
 
 	},
+	{
+		header: 'The road to school',
+		photos: './images/roadtoschool.png'
+	},	
 	{
 		header: 'Responsive d3.js charts library',
 		photos: './images/SSZ.png'
