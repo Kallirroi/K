@@ -1,6 +1,9 @@
 import './App.css';
 
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import $ from 'jquery';
+
 import Menu from './Menu';
 import Item from './Item';
 import {ItemMap} from './ItemMap';
@@ -20,6 +23,178 @@ class App extends Component {
  
   componentDidMount() {
     window.addEventListener('click', this.showPhotos);
+
+
+    var screensaver = (function() {
+
+      var 
+        _durationBeforeSlide = 4000, //3000,
+        _durationBeforeActivateSS = 6000, //60000,
+        _durationFade = 2000,
+        _timeoutSlide = false,
+        _timeoutTracking = false;
+      
+      function start() {
+        console.log('Screensaver.start()');
+
+
+        var $cont = $('#screensaver');
+        
+        //$cont.addClass('active');
+        $cont
+          .addClass('starting')
+          .fadeIn(0);
+
+        $cont
+            .find('.item')
+            .first()
+            .addClass('active');
+
+        setTimeout(function() {
+
+          $cont
+            .addClass('active')
+            .removeClass('starting');
+        }, 3000);
+
+        stopMouseTracking();
+
+        clearTimeout(_timeoutSlide);
+        _timeoutSlide = setTimeout(gotoNext, _durationBeforeSlide);
+      }
+
+      function stop() {
+        // console.log('  stop()');
+
+      
+        var $ss = $('#screensaver');
+
+        $ss.fadeOut(_durationFade, function() {
+
+          $ss
+            .removeClass('active')
+            .find('.item.active')
+            .removeClass('active');
+
+        });   
+
+        clearTimeout(_timeoutSlide);
+
+        initMouseTracking();
+      }
+
+      function mouseMoving() {
+        // console.log('  mouseMoving()');
+
+        clearTimeout(_timeoutTracking);
+        
+        _timeoutTracking = setTimeout(function() {
+
+          start();
+
+        }, _durationBeforeActivateSS);
+      }
+
+      function initMouseTracking() {
+        // console.log('  initMouseTracking()');
+
+        var $cont = $('#screensaver');
+
+        if($cont.length > 0) {
+
+          $('body').mousemove(function(){
+            throttle( mouseMoving() ,1000);
+          });
+
+          $(window).scroll(function(){
+            throttle( mouseMoving() ,600);
+          });
+
+          mouseMoving();
+        }   
+      }
+
+      function stopMouseTracking() {
+        // console.log('  stopMouseTracking()');
+
+        $('body').unbind('mousemove');
+        clearTimeout(_timeoutTracking);
+      }
+
+      function gotoNext() {
+        // console.log('  gotoNext()');
+
+        var 
+          $cont = $('#screensaver'),
+          $active = $cont.find('.item.active'),
+          $next = $active.next();
+
+        $active.removeClass('active');
+
+        if($next.length > 0) {
+
+          $next.addClass('active')
+            .css('left', Math.random() * 90 + 'vw')
+            .css('top', Math.random() * 90 + 'vh');
+
+        } else {
+          
+          $cont.find('.item').first().addClass('active');
+        }
+
+        _timeoutSlide = setTimeout(gotoNext, _durationBeforeSlide);
+      }
+
+      function throttle (callback, limit) {
+
+        var wait = false;
+        return function () {
+          if (!wait) {
+
+            callback.apply(null, arguments);
+            wait = true;
+            setTimeout(function () {
+              wait = false;
+            }, limit);
+          }
+        }
+      }
+
+
+      return {
+        init: function() {
+
+          var $ss = $('#screensaver');
+
+          _durationBeforeSlide = $ss.data('duration-scroll');
+          _durationBeforeActivateSS = $ss.data('duration-start');
+
+          $ss.click(function() {
+            // console.log('Screensaver.click()');
+
+            stop();
+          });
+
+          $(document).keydown(function(e) {
+
+            var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
+            // console.log(key);
+
+            if(key === 27) { //esc
+              stop();
+            }
+          });
+        },
+        initMouseTracking: initMouseTracking,
+        stopMouseTracking: stopMouseTracking,
+        start: start
+      };
+    })();
+
+
+    screensaver.init();
+    screensaver.initMouseTracking();
+
   }
 
   componentWillUnmount() {
@@ -30,6 +205,8 @@ class App extends Component {
     e.target.className === "Item-Photos-Button"? this.setState({clickedID: e.target.id, classNamePhotos:"ItemPhoto-isVisible" }) : this.setState({clickedID: 0, classNamePhotos: "ItemPhoto-isNotVisible"});
   }
 
+
+
   render() {
     return (
       <div className="App">
@@ -37,7 +214,10 @@ class App extends Component {
         <Menu projects={this.state.projects}/> 
         <div className="App-Container">
           {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} photos={d.photos} links={d.links}/>) }
-        </div>     
+        </div>
+        <div id="screensaver" data-duration-start="3000" data-duration-scroll="4000">
+            <div className="item"></div>
+       </div>     
         <ItemPhoto className={this.state.classNamePhotos} photos={ItemPhotoMap[this.state.clickedID].photos} />
         <div className="About"> <a href="mailto:kallirroi.retzepi@gmail.com">contact</a></div>
       </div>
