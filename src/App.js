@@ -6,6 +6,7 @@ import $ from 'jquery';
 
 import Menu from './Menu';
 import Item from './Item';
+import ScreensaverItem from './ScreensaverItem';
 import {ItemMap} from './ItemMap';
 import ItemPhoto from './ItemPhoto';
 import {ItemPhotoMap} from './ItemPhotoMap';
@@ -35,7 +36,7 @@ class App extends Component {
         _timeoutTracking = false;
       
       function start() {
-        console.log('Screensaver.start()');
+        // console.log('Screensaver.start()');
 
 
         var $cont = $('#screensaver');
@@ -216,7 +217,7 @@ class App extends Component {
           {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} photos={d.photos} links={d.links}/>) }
         </div>
         <div id="screensaver" data-duration-start="3000" data-duration-scroll="4000">
-            <div className="item"></div>
+          {ItemMap.map((d,i) =>  <ScreensaverItem key={i} photos={d.photos}/>) }
        </div>     
         <ItemPhoto className={this.state.classNamePhotos} photos={ItemPhotoMap[this.state.clickedID].photos} />
         <div className="About"> <a href="mailto:kallirroi.retzepi@gmail.com">contact</a></div>

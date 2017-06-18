@@ -242,19 +242,18 @@ a {
   z-index: 3000;
 /*  top: 0;
   left: 0;*/
-  width: 360px;
-  height: 480px;
+/*  width: 360px;
+  height: 480px;*/
   display: block;
 }
 #screensaver .item {
   position: absolute;
   top: 0vh;
   left: 0vw;
-  width: 360px;
-  height: 480px;
+/*  width: 360px;
+  height: 480px;*/
   margin: 0;
   padding: 0;
-  background-image: url('./images/archmixes.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
