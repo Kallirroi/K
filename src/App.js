@@ -135,8 +135,8 @@ class App extends Component {
         if($next.length > 0) {
 
           $next.addClass('active')
-            .css('left', Math.random() * 90 + 'vw')
-            .css('top', Math.random() * 90 + 'vh');
+            .css('left', Math.random() * 10 + 'vw')
+            .css('top', Math.random() * 10 + 'vh');
 
         } else {
           
@@ -195,7 +195,7 @@ class App extends Component {
 
     screensaver.init();
     screensaver.initMouseTracking();
-
+    // screensaver.start();
   }
 
   componentWillUnmount() {
@@ -212,13 +212,13 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-Header"> kalli retzepi</div> 
+        <div id="screensaver" data-duration-start="3000" data-duration-scroll="4000">
+          {ItemPhotoMap.map((d,i) =>  <ScreensaverItem key={i} photos={d.photos}/>) }
+        </div>  
         <Menu projects={this.state.projects}/> 
         <div className="App-Container">
           {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} photos={d.photos} links={d.links}/>) }
         </div>
-        <div id="screensaver" data-duration-start="3000" data-duration-scroll="4000">
-          {ItemMap.map((d,i) =>  <ScreensaverItem key={i} photos={d.photos}/>) }
-       </div>     
         <ItemPhoto className={this.state.classNamePhotos} photos={ItemPhotoMap[this.state.clickedID].photos} />
         <div className="About"> <a href="mailto:kallirroi.retzepi@gmail.com">contact</a></div>
       </div>
