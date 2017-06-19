@@ -212,11 +212,11 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-Header"> kalli retzepi</div> 
-        <div id="screensaver" data-duration-start="3000" data-duration-scroll="4000">
-          {ItemPhotoMap.map((d,i) =>  <ScreensaverItem key={i} fragments={d.fragments}/>) }
-        </div>  
         <Menu projects={this.state.projects}/> 
         <div className="App-Container">
+          <div id="screensaver" data-duration-start="3000" data-duration-scroll="4000">
+            {ItemPhotoMap.map((d,i) =>  <ScreensaverItem key={i} fragments={d.fragments}/>) }
+          </div>  
           {ItemMap.map((d,i) => <Item key={i} id={i} header={d.header} type={d.type} text={d.text} photos={d.photos} links={d.links}/>) }
         </div>
         <ItemPhoto className={this.state.classNamePhotos} photos={ItemPhotoMap[this.state.clickedID].photos} />
