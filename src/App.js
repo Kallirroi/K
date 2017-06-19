@@ -135,8 +135,8 @@ class App extends Component {
         if($next.length > 0) {
 
           $next.addClass('active')
-            .css('left', Math.random() * 10 + 'vw')
-            .css('top', Math.random() * 10 + 'vh');
+            .css('left', Math.random() * 80 + 'vw')
+            .css('top', Math.random() * 60 + 'vh');
 
         } else {
           
