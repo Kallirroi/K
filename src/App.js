@@ -181,7 +181,7 @@ class App extends Component {
             var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
             // console.log(key);
 
-            if(key === 27) { //esc
+            if (key === 27 || key === 32){ //esc or space
               stop();
             }
           });
