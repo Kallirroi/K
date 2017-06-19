@@ -213,7 +213,7 @@ class App extends Component {
       <div className="App">
         <div className="App-Header"> kalli retzepi</div> 
         <div id="screensaver" data-duration-start="3000" data-duration-scroll="4000">
-          {ItemPhotoMap.map((d,i) =>  <ScreensaverItem key={i} photos={d.photos}/>) }
+          {ItemPhotoMap.map((d,i) =>  <ScreensaverItem key={i} fragments={d.fragments}/>) }
         </div>  
         <Menu projects={this.state.projects}/> 
         <div className="App-Container">
