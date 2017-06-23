@@ -1,5 +1,12 @@
 export const ItemMap = [
 	{
+		header: 'PROPS',
+		type: 'design/dev  •  2017',
+		text: 'PROPS is an expanded archive of work by image makers, image collectors and accidental image connoisseurs.' ,
+		links:'<a href="http://propspaper.com/" target="_blank">link</a>',
+		photos: 'image'
+
+	},	{
 		header: 'L\'atelier magazine',
 		type: 'design/dev  •  2017',
 		text: 'In the research of series of words provoking images and images organizing the words. Created by EPFL Architecture students.' ,

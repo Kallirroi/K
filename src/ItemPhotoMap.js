@@ -1,5 +1,9 @@
 export const ItemPhotoMap = [
 	{
+		header: 'PROPS',
+		photos: './images/PROPS.png',
+		fragments: './images/fragments/PROPS.png'
+	},		{
 		header: 'l\'atelier magazine',
 		photos: './images/latelier.png',
 		fragments: './images/fragments/atelier.png'
